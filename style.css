@@ -1,0 +1,195 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .muzalri {
+        color: white; /* Warna teks menjadi putih */
+        font-size: 1.2em; /* Ukuran font sedikit lebih besar */
+        margin-left: 10px; /* Memberikan jarak kiri antara tautan lainnya */
+        position: absolute; /* Mengatur posisi absolut */
+        left: 10px; /* Jarak dari sisi kiri navbar */
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		font-size: 24px;
+        font-weight: 900;
+	    font-size: 24px;
+	    text-transform: uppercase;
+        margin-top: 20px;
+    }
+    
+    
+    .namam{
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        padding: 13px; /* Tambahkan padding di sini */
+    }
+    
+    
+    nav a {
+        position: relative;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #333;
+        text-decoration: none;
+        padding: 6px 20px;
+        transition: 0.5s;
+    }
+    
+    nav a:hover {
+        color: #8ef;
+    }
+    
+    nav a:hover span {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+        z-index: 0; /* Tambahkan z-index untuk memastikan efek tetap di atas latar belakang */
+    }
+    
+    nav a span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-bottom: 2px solid #bef;
+        border-radius: 15px;
+        transform: scale(0) translateY(50px);
+        opacity: 0;
+        transition: 0.5s;
+        z-index: -1; /* Pindahkan z-index ke sini */
+    }
+    
+    nav a span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-bottom: 2px solid #bef;
+        border-radius: 15px;
+        transform: scale(0) translateY(50px);
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    nav a:hover span {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+    
+    body {
+        background-color: #312f2f;
+        
+    }
+    
+    .custom-shape-divider-top-1707031561 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-top-1707031561 svg {
+        position: relative;
+        display: block;
+        width: calc(271% + 1.3px);
+        height: 136px;
+    }
+    
+    .custom-shape-divider-top-1707031561 .shape-fill {
+        fill: #000000;
+    }
+
+    .container-fluid .col-md-12 {
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+
+     /* Ubah posisi header menjadi kiri */
+.header-text {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: left; /* Mengatur teks di header menjadi rata kiri */
+}
+
+/* Ubah warna teks agar tidak kontras */
+.header-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Mengubah warna teks menjadi abu-abu tua agar tidak kontras dengan latar belakang */
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #777; /* Mengubah warna teks menjadi abu-abu muda agar tidak kontras dengan latar belakang */
+    margin-bottom: 30px;
+}
+
+.header-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.header-text a:hover {
+    text-decoration: underline;
+}
+
+    
+.header-text {
+    display: flex;
+    justify-content: center; /* Mengatur konten menjadi di tengah secara horizontal */
+    align-items: center; /* Mengatur konten menjadi di tengah secara vertikal */
+    height: 100vh; /* Mengisi tinggi 100% dari viewport */
+}
+
+.left-text {
+    text-align: center; /* Mengatur teks menjadi di tengah */
+}
+
+    
+    .left-text {
+        animation: fadeInLeft 0.6s ease-out 0.4s forwards;
+    }
+    
+
+
+    .portfolio {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    
+    .portfolio h2 {
+        color: #333;
+        margin-bottom: 30px;
+    }
+    
+    .project {
+        margin-bottom: 30px;
+    }
+    
+    .project h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .project p {
+        color: #666;
+    }
+
+    
+
+    
